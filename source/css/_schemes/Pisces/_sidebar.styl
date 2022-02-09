@@ -4,6 +4,8 @@
   margin-top: 100%;
   position: static;
   width: $sidebar-desktop;
+  border-radius: $border-radius;
+  overflow: hidden;
 
   +tablet-mobile() {
     display: none;
@@ -21,6 +23,7 @@
   box-sizing: border-box;
   color: var(--text-color);
   width: $sidebar-desktop;
+
 
   if (hexo-config('motion.enable') && hexo-config('motion.transition.sidebar')) {
     opacity: 0;

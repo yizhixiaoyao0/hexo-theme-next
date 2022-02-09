@@ -29,7 +29,7 @@ custom_file_path:
   #postBodyEnd: source/_data/post-body-end.swig
   #footer: source/_data/footer.swig
   #bodyEnd: source/_data/body-end.swig
-  #variable: source/_data/variables.styl
+  variable: source/_data/styles.styl
   #mixin: source/_data/mixins.styl
   #style: source/_data/styles.styl
 
@@ -362,7 +362,7 @@ back2top:
   # Back to top in sidebar.
   sidebar: false
   # Scroll percent label in b2t button.
-  scrollpercent: true
+  scrollpercent: false
 
 # Reading progress bar
 reading_progress:
@@ -404,7 +404,7 @@ font:
   enable: false
 
   # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
-  host:
+  host: //fonts.loli.net
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -420,7 +420,7 @@ font:
   # Font settings for site title (.site-title).
   title:
     external: true
-    family:
+    family: Candyhome
     size:
 
   # Font settings for headlines (<h1> to <h6>).
