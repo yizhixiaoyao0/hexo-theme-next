@@ -218,6 +218,10 @@
     {%- if not is_index %}
       {{- next_inject('postBodyEnd') }}
 
+      {%- if theme.page_end_tag.enable %}
+      {{ partial('_partials/post/post-end-tag.swig') }}
+      {%- endif %}
+
       {%- if post.reward_settings.enable %}
         {{ partial('_partials/post/post-reward.swig') }}
       {%- endif %}

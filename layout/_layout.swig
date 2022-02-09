@@ -7,7 +7,8 @@
   <title>{% block title %}{% endblock %}</title>
   {{ partial('_third-party/analytics/index.swig', {}, {cache: theme.cache.enable}) }}
   {{ partial('_scripts/noscript.swig', {}, {cache: theme.cache.enable}) }}
-  <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/js/all.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/js/fontawesome.min.js"></script>
+ 
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
