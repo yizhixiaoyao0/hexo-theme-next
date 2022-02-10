@@ -7,8 +7,7 @@
   <title>{% block title %}{% endblock %}</title>
   {{ partial('_third-party/analytics/index.swig', {}, {cache: theme.cache.enable}) }}
   {{ partial('_scripts/noscript.swig', {}, {cache: theme.cache.enable}) }}
-  <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/js/fontawesome.min.js"></script>
- 
+  <link rel="stylesheet" href="https://cdn1.tianli0.top/gh/akilarlxh/akilarlxh.github.io/css/tag_plugins.css">
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -73,6 +72,7 @@
   <div class="hide-button">隐藏</div>
 </div>
 <script type="text/javascript" src="/live2d/js/autoload.js"></script> -->
+
 <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
 </body>
 </html>
